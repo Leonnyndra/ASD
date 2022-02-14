@@ -1,0 +1,1 @@
+Sequential Searching merupakan teknik pencarian data dengan cara masukan berupa sebuah kata kunci lalu mulai dari awal (atau dari akhir) cek seluruh record dalam array atau list, dengan membaca satu persatu berdasarkan key yang dicari, apabila sampai akhir pengulangan data tidak ada yang sama maka data tidak ditemukan.
