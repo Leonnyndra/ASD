@@ -7,5 +7,5 @@ Ketika satu proses telah selesai, maka bubble sort akan mengulangi proses, demik
 Bubble sort berhenti jika seluruh array telah diperiksa dan tidak ada pertukaran lagi yang 
 bisa dilakukan, serta tercapai perurutan yang telah diinginkan.
 
-Output :
+* Output :
 ![Img](https://github.com/Leonnyndra/ASD/blob/main/Sorting/bubble.png)
