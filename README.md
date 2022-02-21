@@ -1,8 +1,8 @@
 # TC122G Algoritma dan Struktur Data
-## Searching 
+## Searching  [(Code)](https://github.com/Leonnyndra/ASD/tree/main/Searching)
 * Sequential Searching
 * Binary Searching
-    * [Code](https://github.com/Leonnyndra/ASD/tree/main/Searching)
+    
 
 ## Sorting
 * Challenge
