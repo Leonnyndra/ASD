@@ -1,26 +1,39 @@
 #include <stdio.h>
 
-void bubble_sort(int data[], int n)
+void swap(int *a, int *b)
 {
-    int a, b, c;
-    for(a=0; a<n-1; a++)
+    int temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+void selectionSort(int array[], int size)
+{
+    for(int step=0; step<size-1; step++)
     {
-        for(b = 0; b < n - a - 1; b++)
+        int min_idx = step;
+        for(int i = step+1; i<size; i++)
         {
-            if(data[b] > data[b+1])
-            {
-                c=data[b];
-                data[b] = data[b+1];
-                data[b+1] = c;
-            }
+            if(array[i] < array[min_idx])
+            min_idx = i;
         }
+        swap(&array[min_idx], &array[step]);
     }
+}
+
+void printArray(int array[], int size)
+{
+    for(int i=0; i< size; ++i)
+    {
+        printf("%d ", array[i]);
+    }
+    printf("\n");
 }
 
 int main()
 {
     printf("----------------------------------------------------------\n\n");
-    printf("\t\tBUBBLE SORT\n\n");
+    printf("\t\tSELECTION SORT\n\n");
     printf("----------------------------------------------------------\n\n");
 
     int data[50], n, a;
@@ -29,7 +42,7 @@ int main()
         printf("\nMasukkan angka = \n");
     for(a=0; a<n; a++)
         scanf("%d", &data[a]);
-        bubble_sort(data, n);
+        selectionSort(data, n);
         printf("\nArray setelah disusun dari kecil ke besar (Ascending)=\n");
     for(a=0; a<n; a++)
         {
