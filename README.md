@@ -9,5 +9,5 @@
     * [Deskripsi](https://github.com/Leonnyndra/ASD/blob/f53c1a16a7ca9093097ea74b1d88afc643c2fe5b/Searching/Desc/Deskripsi%20Binary)
 
 ## Sorting
-* CHALLENGE
+* Challenge
     * [Code](https://github.com/Leonnyndra/ASD/tree/main/Sorting/Challenge)
