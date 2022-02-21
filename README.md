@@ -5,3 +5,6 @@
     
 ## [Sorting](https://github.com/Leonnyndra/ASD/tree/main/Sorting)
 * Challenge
+* Bubble Sort
+* Selection Sort
+* Insertion Sort
