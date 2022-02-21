@@ -1,6 +1,7 @@
 # Challenge
 ## Selection Sorting
-Selection Sorting merupakan kombinasi antara sorting dan searching Untuk setiap proses, akan dicari elemen-elemen yang belum diurutkan yang memiliki nilai terkecil atau terbesar akan dipertukarkan ke posisi yang tepat di dalam array.
+Selection Sort merupakan kombinasi antara sorting dan searching. Untuk setiap prosesmya, akan dicari elemen-elemen yang belum 
+diurutkan yang memiliki nilai terkecil atau terbesar akan dipertukarkan ke posisi yang tepat di dalam array. Selama proses,pembandingan dan pengubahan hanya dilakukan pada indeks pembanding saja, pertukaran data secara fisik terjadi pada akhir proses.
 * [Code](https://github.com/Leonnyndra/ASD/blob/main/Sorting/Challenge/Selection%20Sorting.c)
 
 ## Insertion Sorting
