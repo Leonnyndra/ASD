@@ -8,4 +8,4 @@ Insertion Sorting mirip dengan cara orang mengurutkan kartu, selembar demi selem
 * [Code](https://github.com/Leonnyndra/ASD/blob/main/Sorting/Challenge/Insertion%20Sort.c)
 
 ## Output
-[Img] (https://github.com/Leonnyndra/ASD/blob/main/Sorting/Challenge/Screenshot%202022-02-21%20184120.png)
+![Img](https://github.com/Leonnyndra/ASD/blob/main/Sorting/Challenge/Screenshot%202022-02-21%20184120.png)
