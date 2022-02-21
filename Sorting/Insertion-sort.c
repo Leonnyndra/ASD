@@ -7,17 +7,19 @@ void swap(int *a, int *b)
     *b = temp;
 }
 
-void selectionSort(int array[], int size)
+void insertionSort(int array[], int n)
 {
-    for(int step=0; step<size-1; step++)
+    int a, b, temp;
+    for( a=1; a<n; a++)
     {
-        int min_idx = step;
-        for(int i = step+1; i<size; i++)
-        {
-            if(array[i] < array[min_idx])
-            min_idx = i;
-        }
-        swap(&array[min_idx], &array[step]);
+        temp=array[a];
+        b=a-1;
+    while(array[b]>temp && b>=0)
+    {
+        array[b+1]=array[b];
+        b--;
+    }
+    array[b+1] = temp;
     }
 }
 
@@ -33,7 +35,7 @@ void printArray(int array[], int size)
 int main()
 {
     printf("----------------------------------------------------------\n\n");
-    printf("\t\tSELECTION SORT\n\n");
+    printf("\t\tINSERTION SORT\n\n");
     printf("----------------------------------------------------------\n\n");
 
     int data[50], n, a;
@@ -42,7 +44,7 @@ int main()
         printf("\nMasukkan angka = \n");
     for(a=0; a<n; a++)
         scanf("%d", &data[a]);
-        selectionSort(data, n);
+        insertionSort(data, n);
         printf("\nArray setelah disusun dari kecil ke besar (Ascending)=\n");
     for(a=0; a<n; a++)
         {
