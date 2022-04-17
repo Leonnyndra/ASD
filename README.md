@@ -9,7 +9,7 @@
 * Selection Sort
 * Insertion Sort
 
-## [Tree](https://github.com/Leonnyndra/ASD/blob/main/Tree/Tree%20(cpp).cpp)
+## [Tree](https://github.com/Leonnyndra/ASD/tree/main/Tree)
 * Pre-Order
 * In-Order
 * Post-Order
