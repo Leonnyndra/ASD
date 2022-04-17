@@ -8,3 +8,8 @@
 * Bubble Sort
 * Selection Sort
 * Insertion Sort
+
+## [Sorting](https://github.com/Leonnyndra/ASD/tree/main/Sorting)
+* Pre-Order
+* In-Order
+* Post-Order
