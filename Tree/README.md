@@ -1,4 +1,4 @@
-# [Tree] (https://github.com/Leonnyndra/ASD/blob/main/Searching/Sequential%20Searching.c)
+# [Tree](https://github.com/Leonnyndra/ASD/blob/main/Tree/Tree%20(cpp).cpp)
 ## Pre-Order
 Cetak node yang dikunjungi, kunjungi left, kunjungi right (tengah, kiri, kanan)
 
