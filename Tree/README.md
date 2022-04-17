@@ -1,4 +1,4 @@
-# [Tree](https://github.com/Leonnyndra/ASD/blob/main/Tree/Tree%20(cpp).cpp)
+# [Tree](https://github.com/Leonnyndra/ASD/blob/main/Tree/Challenge%20-%20Tree%20(cpp).cpp)
 ## Pre-Order
 Cetak node yang dikunjungi, kunjungi left, kunjungi right (tengah, kiri, kanan)
 
