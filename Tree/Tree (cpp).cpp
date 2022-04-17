@@ -123,7 +123,7 @@ int main()
                 break;
             case 5 :
             	if(tree!=NULL)	
-   				 printf("Eror !!!");
+		    printf("Eror !!!");
    				else
                     printf("Masih kosong!");
             	break; 
